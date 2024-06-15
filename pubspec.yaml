@@ -1,0 +1,25 @@
+name: flutter_gql
+description: "Demo App implementing GraphQL in flutter app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  graphql_flutter: ^5.1.2
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
